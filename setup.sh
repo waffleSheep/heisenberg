@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-pip3 install mkdocs
-pip3 install mkdocs-material
+pip install mkdocs
+pip install mkdocs-material
 
 ./deploy.sh

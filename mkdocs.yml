@@ -1,7 +1,12 @@
-site_name: AstroSite
+site_name: The Uncertainty Principle
 
 theme:
   name: 'material'
+
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.share
 
   # 404 page
   static_templates:
@@ -55,4 +60,6 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - 'Getting Started.md'
+  - Instructions:
+    - instructions/index.md
+    - instructions/'Getting Started.md'
