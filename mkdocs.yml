@@ -59,7 +59,10 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Home: index.md
-  - Instructions:
-    - instructions/index.md
-    - instructions/'Getting Started.md'
+  - Introduction: introduction/index.md
+  - Theory: theory/index.md
+  - Applications:
+    - applications/index.md
+    - applications/Getting Started.md
+  - Resources: resources/index.md
+  - Quiz: quiz/index.md
