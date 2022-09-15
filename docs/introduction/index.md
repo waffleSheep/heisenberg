@@ -1,3 +1,2 @@
-# Heisenberg's Uncertainty Principle in Real Life
+# Introduction
 
-![](img/important.gif)
