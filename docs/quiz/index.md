@@ -1,3 +1,0 @@
-# Quiz hamburger
-
-filer ex
