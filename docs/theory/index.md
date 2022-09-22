@@ -1,3 +1,0 @@
-# Lynus Obama
-
-filler text

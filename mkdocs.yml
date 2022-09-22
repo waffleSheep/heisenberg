@@ -61,7 +61,9 @@ extra_javascript:
 
 nav:
   - index.md
-  - Theory: theory/index.md
+  - Theory: 
+    - theory/wpd.md
+    - theory/qm.md
   - Applications:
     - applications/index.md
     - applications/Getting Started.md
