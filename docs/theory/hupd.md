@@ -32,8 +32,7 @@ $$
 \begin{aligned}
 \mu_p&=m\frac{d\mu_x}{dt}\\
 &=m\frac{d}{dt}\int _{-\infty}^{\infty}x\cdot|\Psi (x)|^{2}\,\mathrm {d} x\\
-&=m\int _{-\infty}^{\infty}x\cdot \frac{\partial}{\partial t} \left (|\Psi (x)|^{2} \right)\,\mathrm {d} x\\
-
+&=m\int _{-\infty}^{\infty}x\cdot \frac{\partial}{\partial t} \left (|\Psi (x)|^{2} \right)\,\mathrm {d} x
 \end{aligned}
 $$
 
