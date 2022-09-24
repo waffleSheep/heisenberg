@@ -64,6 +64,7 @@ nav:
   - Theory: 
     - theory/wpd.md
     - theory/qm.md
+    - theory/hupd.md
   - Applications:
     - applications/index.md
     - applications/Getting Started.md
