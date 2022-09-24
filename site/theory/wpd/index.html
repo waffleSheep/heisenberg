@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
     
     
       
@@ -17,13 +17,14 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7a952b86.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
         
       
       
+
     
     
     
@@ -36,10 +37,11 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -142,11 +144,11 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
-          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
           </a>
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
@@ -382,6 +384,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#de-broglies-hypothesis" class="md-nav__link">
+    de Broglie's hypothesis
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -399,6 +408,20 @@
     <li class="md-nav__item">
       <a href="../qm/" class="md-nav__link">
         Quantum Mechanics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hupd/" class="md-nav__link">
+        Derivation of Heisenberg's Uncertainty Principle
       </a>
     </li>
   
@@ -543,6 +566,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#de-broglies-hypothesis" class="md-nav__link">
+    de Broglie's hypothesis
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -551,10 +581,11 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
+                  
 
 
 <h1 id="wave-particle-duality">Wave-particle duality</h1>
@@ -562,18 +593,37 @@
 <p>Prior to the 20th century there were numerous theories about the nature of light. One such prominent theory was the wave theory of light. In 1801, this theory was strengthened by the double-slit experiment which showed that light interferes like a wave. Soon, the wave theory became the dominant theory on the nature of light as it could also explain phenomena such as the polarisation of light.</p>
 <p><img alt="image" src="../img/double_slit.png" style="width:300px;display: block; margin: 0 auto" /></p>
 <p>However, following the turn of the century, Max Planck found a solution to a pre-existing problem with weird assumptions (at the time). Planck was working on a theoretical model for the wavelengths of light emitted by a blackbody (A theoretical perfect absorber of energy) at given temperatures. Previous attempts used known theories of light and energy and failed to describe the phenomena for higher frequencies this was known as the "ultraviolet catastrophe".</p>
+<p><img alt="image" src="../img/blackbody.svg" style="width:300px;display: block; margin: 0 auto" /></p>
 <p>However, Planck was successful because he made rather strange assumptions. One of the key assumptions was that the energy emitted or absorbed by a blackbody was quantised, or in discrete packets as opposed to continuously being emitted or absorbed and that the energy of each packet was described as such</p>
 <div class="arithmatex">\[E=hf\]</div>
 <p>where <span class="arithmatex">\(h = 6.626 \times {10}^{-34} Js\)</span> (known as planck's constant) and <span class="arithmatex">\(f\)</span> is frequency. With this, and some other key assumptions Planck was able to determine the formula to explain blackbody radiation.</p>
-<p>Planck made the assertion that only the energy of radiating atoms was quantised and not that light itself was quantised and the wave theory held strong.</p>
+<div class="arithmatex">\[B_{f}(T)={\frac {2f ^{2}}{c^{2}}}{\frac {hf }{e^{hf /kT}-1}}\]</div>
+<p>Planck made the assertion that only the energy of radiating atoms was quantised and not that light itself was quantised and the wave theory while slighlty shaken, held strong.</p>
 <h2 id="the-electron-and-the-photoelectric-effect">The electron and the photoelectric effect</h2>
-<p>Around the same time, JJ thompson discovered the first subatomic particle known as the electron through the cathode ray experiment. The electron had a negative charge and it was speculated that atoms consisted of a positively charged cloud with tiny electrons. This was known as the plum-pudding model.</p>
-<p>Delocalised mobile electrons in certain elements and compounds (such as metals and alloys) can flow to create a current when there is a voltage difference between 2 points.</p>
+<p>Around the same time, JJ Thompson discovered the first subatomic particle known as the electron through the cathode ray experiment. The electron had a negative charge and it was speculated that atoms consisted of a positively charged volume with electrons. This was known as the plum-pudding model.</p>
+<p><img alt="image" src="../img/plum_pudding.jpg" style="width:300px;display: block; margin: 0 auto" /></p>
+<p>Delocalised mobile electrons in certain elements and compounds (such as metals and alloys) can move to create a current when there is a voltage difference between regions.</p>
+<div class="arithmatex">\[I = \frac{dQ}{dt}\]</div>
+<p>A few years prior to the discovery of the electron, Heinrich Hertz observed the photoelectric effect. He saw that when you place 2 metal spheres very close to each and shone light, sparks would be observed between the 2 spheres.</p>
+<p><img alt="image" src="../img/photoelectric.png" style="width:300px;display: block; margin: 0 auto" /></p>
+<p>Thompson showed that these sparks were electrons. To explain this classical physicists suggested that the oscilating electric field of the light wave was heating electrons and causing them to vibrate, eventually providing them with enough energy for it to overcome the attraction to the positively charged cloud of the atom. They came to this assumption with the wave theory of light and predicted that the KE of emitted electrons should be proportional to the amplitude of the light wave and that the rate of electron emission (or current) should be proportional to the frequency. However, both these assumptions were proven to be wrong. It was found experimentally that KE increases with frequency and current increases with amplitude. It was also found that for light with low frequency, the effect was not observed regardless of intensity. This was a big shock and brought into question the wave theory of light.</p>
+<p><img alt="image" src="../img/albert.jpg" style="width:300px;display: block; margin: 0 auto" /></p>
+<p>However, Albert Einstein came to the rescue and explained this phenomenon while buidling on Planck's work. He first realised that unlike what Planck asserted, light itself was quantised and was behaving like it was composed of tiny particles (now known as photons) where each particle had an energy proportional to its frequency.</p>
+<div class="arithmatex">\[{E}_{photon}=hf\]</div>
+<p>This explained the fact as to why the kinetic energy increased with frequency because since energy could only be transmitted discretely as compared to a continuous wave, only photons with high enough energy were able to free the electrons from the surface when hit regardless of the amplitude of the wave. It also explained why current increased with amplitude because an increase in amplitude caused and increase in the amount of photons hitting the metal surface.</p>
+<p><img alt="image" src="../img/wave_packet.gif" style="width:300px;display: block; margin: 0 auto" /></p>
+<p>Of course, Einstein realised that light could not be just a particle because particles collide and light interferes so he postulated that light as consisted of spatially localized, discrete wave-packets. These wave-packets have properties of both wave and particles because they interfere like waves but are still localised like particles.</p>
+<h2 id="de-broglies-hypothesis">de Broglie's hypothesis</h2>
 
-              
-            </article>
-            
-          </div>
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
         </div>
         
       </main>
@@ -636,10 +686,11 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "search.suggest", "search.share"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "search.suggest", "search.share"], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      <script src="../../assets/javascripts/bundle.37e9125f.min.js"></script>
       
         <script src="../../javascripts/mathjax.js"></script>
       
