@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/index.md",
+            "file": "docs/quiz/index.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/quiz/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,15 @@
   },
   "active": "461456df2e844b4c",
   "lastOpenFiles": [
-    "docs/index.md",
-    "docs/Getting Started.md",
-    "README.md"
+    "docs/img/heisenberg.jpg",
+    "docs/img/zayan.jpeg",
+    "docs/img/vernon.jpeg",
+    "docs/img/lynus.jpeg",
+    "docs/quiz/index.md",
+    "docs/applications/Getting Started.md",
+    "docs/applications/index.md",
+    "docs/resources/index.md",
+    "docs/theory/hupd.md",
+    "docs/theory/wpd.md"
   ]
 }

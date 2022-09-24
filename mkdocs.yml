@@ -38,6 +38,7 @@ theme:
         name: Switch to dark mode
 
 markdown_extensions:
+  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -59,7 +60,13 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Home: index.md
-  - Instructions:
-    - instructions/index.md
-    - instructions/'Getting Started.md'
+  - index.md
+  - Theory: 
+    - theory/wpd.md
+    - theory/qm.md
+    - theory/hupd.md
+  - Applications:
+    - applications/index.md
+    - applications/Getting Started.md
+  - Resources: resources/index.md
+  - Quiz: quiz/index.md
