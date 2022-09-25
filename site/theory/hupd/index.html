@@ -422,7 +422,7 @@
   
     <li class="md-nav__item">
       <a href="../../applications/" class="md-nav__link">
-        Welcome to Astrosite!
+        Applications of the Heisenberg Uncertainty Principle
       </a>
     </li>
   
@@ -567,6 +567,84 @@
 \end{aligned}
 \]</div>
 <p>Viola, we have figured it out.</p>
+<p>TBD TBD TBD HOW TF DO I FIND <span class="arithmatex">\(\mu_{p^2}\)</span></p>
+<div class="arithmatex">\[\mu_{p^2}=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]^2\Psi\right)\,\mathrm {d} x\]</div>
+<p>Now that we know <span class="arithmatex">\(\mu_{p^2}\)</span> and <span class="arithmatex">\(\mu_p\)</span>, we can find <span class="arithmatex">\(\sigma_p^2\)</span>,
+$$
+\begin{aligned}
+\sigma_p^2&amp;=\mu_{p^2}-\mu_p^2\
+&amp;=\mu_{p^2}-2\mu_p^2+\mu_p^2\
+&amp;=\mu_{p^2}-2\int _{-\infty}^{\infty} \left(\Psi^<em>\left[-i\hbar\frac{\partial }{\partial x}\right]\mu_p\Psi\right)\,\mathrm {d} x+\mu_p^2\
+&amp;=\int _{-\infty}^{\infty} \left(\Psi^</em>\left[-i\hbar\frac{\partial }{\partial x}-\mu_p\right]^2\Psi\right)\,\mathrm {d} x\
+\end{aligned}
+$$</p>
+<p>Now that we have both <span class="arithmatex">\(\sigma_p^2\)</span> and <span class="arithmatex">\(\sigma_x^2\)</span> we can solve with cauchy-schwarz inequality defined as such</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\int _{-\infty}^{\infty}(f^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(g^*g)\,\mathrm {d} x \geq \int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x
+\end{aligned}
+\]</div>
+<p>for values <span class="arithmatex">\(f\)</span> and <span class="arithmatex">\(g\)</span>. Note also that</p>
+<div class="arithmatex">\[
+\begin{aligned}
+|z|^2 &amp;= (Re(z))^2+(Im(z))^2\\
+&amp;\geq (Im(z))^2\\
+&amp;= \left(\frac{z-z^*}{2i} \right)^2
+\end{aligned}
+\]</div>
+<p>Combining this, we see</p>
+<div class="arithmatex">\[
+\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x= \left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2
+\]</div>
+<p>We can write the 2 equations in terms of <span class="arithmatex">\(f\)</span> and <span class="arithmatex">\(g\)</span> with the subs as such
+$$
+\begin{aligned}
+f&amp;=(x-\mu_x)\Psi\
+f^<em>&amp;=\Psi^</em>(x-\mu_x)\
+g&amp;=\left[-i\hbar\frac{\partial }{\partial x}-\mu_p\right]\Psi\
+g^<em>&amp;=\Psi^</em>\left[-i\hbar\frac{\partial }{\partial x}-\mu_p\right]
+\end{aligned}
+$$</p>
+<p>We now sub it in to the term in the previous inequality</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x&amp;= \int _{-\infty}^{\infty} \left(\Psi^*(x-\mu_x)\left[-i\hbar\frac{\partial }{\partial x}-\mu_p\right]\Psi\right)\,\mathrm {d} x\\
+&amp;=\int _{-\infty}^{\infty} \left(\Psi^*x\left[-i\hbar\frac{\partial }{\partial x}\right]\Psi\right)\,\mathrm {d} x-\int _{-\infty}^{\infty} \left(\Psi^*x\mu_p\Psi\right)\,\mathrm {d} x\\
+&amp;-\int _{-\infty}^{\infty} \left(\Psi^*\mu_x\left[-i\hbar\frac{\partial }{\partial x}\right]\Psi\right)\,\mathrm {d} x+\int _{-\infty}^{\infty} \left(\Psi^*\mu_x\mu_p\Psi\right)\,\mathrm {d} x\\
+&amp;=\int _{-\infty}^{\infty} \left(\Psi^*x\left[-i\hbar\frac{\partial }{\partial x}\right]\Psi\right)\,\mathrm {d} x-\mu_x\mu_p-\mu_x\mu_p+\mu_x\mu_p\\
+&amp;=\int _{-\infty}^{\infty} \left(\Psi^*x\left[-i\hbar\frac{\partial }{\partial x}\right]\Psi\right)\,\mathrm {d} x-\mu_x\mu_p
+\end{aligned}
+\]</div>
+<p>Applying the same steps to conjugate, we get</p>
+<div class="arithmatex">\[
+\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d}x=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]x\Psi\right)\,\mathrm {d} x-\mu_x\mu_p
+\]</div>
+<p>If we compare them, we get</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x&amp;=\int _{-\infty}^{\infty} \left(\Psi^*x\left[-i\hbar\frac{\partial }{\partial x}\right]\Psi\right)\,\mathrm {d} x\\
+&amp;-\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]x\Psi\right)\,\mathrm {d} x\\
+&amp;=i\hbar \cdot \int _{-\infty }^{\infty }\Psi ^{*}\left[\left(-x\cdot {\frac {d\Psi}{dx}}\right)+{\frac {d(x\psi)}{dx}}\right]\,\mathrm {d} x\\
+&amp;=i\hbar \cdot \int _{-\infty }^{\infty }\Psi ^{*}\left[\left(-x\cdot {\frac {d\Psi}{dx}}\right)+\Psi+\left(x\cdot {\frac {d\Psi}{dx}}\right)\right]\,\mathrm{d}x\\
+&amp;=i\hbar\int _{-\infty }^{\infty }\Psi ^{*}\Psi \,\mathrm{d}x\\
+&amp;=i\hbar
+\end{aligned}
+\]</div>
+<p>Finally, we can combine the inequality and what we found</p>
+<div class="arithmatex">\[
+\begin{aligned}
+\sigma_x^2\sigma_p^2 &amp;=\int _{-\infty}^{\infty}(f^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(g^*g)\,\mathrm {d} x \\
+&amp;\geq \int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x\\
+&amp;=\left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2\\
+&amp;=\left(\frac{i\hbar}{2i}\right)^2\\
+&amp;=\left(\frac{\hbar}{2}\right)^2
+\end{aligned}
+\]</div>
+<p>Square rooting this inequality, we get</p>
+<div class="arithmatex">\[
+\sigma_x\sigma_p\geq\frac{\hbar}{2}
+\]</div>
+<p>Viola, we figured out</p>
 
               
             </article>
@@ -598,13 +676,13 @@
       
       
         
-        <a href="../../applications/" class="md-footer__link md-footer__link--next" aria-label="Next: Welcome to Astrosite!" rel="next">
+        <a href="../../applications/" class="md-footer__link md-footer__link--next" aria-label="Next: Applications of the Heisenberg Uncertainty Principle" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Welcome to Astrosite!
+              Applications of the Heisenberg Uncertainty Principle
             </div>
           </div>
           <div class="md-footer__button md-icon">

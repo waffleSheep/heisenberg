@@ -1,38 +1,35 @@
-# Welcome to Astrosite!
+# Applications of the Heisenberg Uncertainty Principle
 
-Astrosite is a basic template to create Astronomy-related Websites in MkDocs with Material as a theme. This is a sample site template for the Astronomy Club CCA. You can use this for Theory and more stuff.
-
-## Features
-### LaTeX Support
-
-![](img/orbital.png)
-
-The MkDocs system implemented provides comprehensive LaTeX support. By enclosing within a `$$ ... $$` for breakout highlighted LaTeX posts, or `$ ... $` for inline LateX, you can display mathematical text and information in a proper format.
-
-For instance, `$x_a^b$` gives $x_a^b$, while `$e^{-x^2}$` will give $e^{-x^2}$, which is pretty helpful for highlighting variables or values between text.
-
-On the other hand, we also have larger equations like the following:
+The Heisenberg Uncertainty Principle has many uses, some of which are listed below.
+## Non-existence of electrons in the nucleus
+The radius of the necleus is approximately ${10}^{14}$m. We shall start by assuming that electrons exist in the nucleus. Hence the uncertainty in the position of the electron is given by:
 
 ```latex
-$$\vec F_g = -G \frac{Mm}{r^2} \hat r$$
+$$\sigma_x= {10}^{-14}m
 ```
 
-gives
-
-$$\vec F_g = -G \frac{Mm}{r^2} \hat r$$
-
- Which is, of course, the vectorised equation of Universal Gravitation. Similarly, something like as follows:
+According to the Uncertainty principle,
 
 ```latex
-$$\begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 - \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*}$$
+$$\sigma_x\sigma{p}_{x}= h/4\pi$$
+
+$$\sigma{p}_{x}= h/4\pi\sigma_x$$
+
+$$\sigma{p}_{x}= 6.62\times{10}^{-34}/(4\times3.14\times{10}^{-14})$$
+
+$$\sigma{p}_{x}=5.27 \times {10}^{-21} kg m/ sec
+```
+As the uncertainty in momentum $\sigma{p}_{x}=5.27 \times {10}^{-21} kg m/ sec $ , then the momentum of the electron should be at least that much.
+
+As the momentum of this electron is at least this high, the velocity also approches relativistic speeds. Hence we have to use the equation below to calculate the energy of the electron. 
+
+
+
+```latex
+$$E=  \sqrt{ {m}^{2}{c}^{4} + {p}^{2}{c}^{2}}$$
+$$E = \sqrt{{({9.1}\times{10}^{-31})}^{2}\times{({3}\times{10}^{8})}^{4}+{{5.27}\times{10}^{-21}}^{2}\times{({3}\times{10}^{8})}^{2}}$$
+$$ = 1.58\times{10}^{-12}J$$
+or $$ E = 9.89Mev $$
 ```
 
-It yields the following result, where $\theta$ denotes the angle of elevation.
-
-
-$$\begin{align*} g &= G \frac{M}{r^2} \\ &= 9.806 - \frac{1}{2} (9.832 - 9.780) \times \cos \left( 2\theta \right) \end{align*}$$
-
-
-This is useful especially in Physics-heavy fields of Astronomy, since they do require LaTeX for focusing on them.
-
-Note that multiline statements still require it to be in one line since you are using markdown.
+If the electron exists in the nucleus, it has to have at least 9.89 Mev of energy. However, electrons, or beta-particles, ejected from the nucleus has energies of approximately 3 MeV, and experimental results show no electron or particle in an atom possess energy greater than 4MeV. Hence, an electron that could exist in the nucleaus does not exist as no such electron with that much energy when emitted has been found. 

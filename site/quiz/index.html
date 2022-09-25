@@ -410,7 +410,7 @@
   
     <li class="md-nav__item">
       <a href="../applications/" class="md-nav__link">
-        Welcome to Astrosite!
+        Applications of the Heisenberg Uncertainty Principle
       </a>
     </li>
   
@@ -510,7 +510,45 @@
 
 
 <h1 id="quiz-hamburger">Quiz hamburger</h1>
+<script>
+        function mark(element, num, correct) {
+            if (correct) {
+                element.style.color = 'green';
+                document.getElementById('id'+num).innerText = "nice";
+                document.getElementById('image'+num).src = "img/happy.jpg"
+            } else {
+                element.style.color = 'red';
+                document.getElementById('id'+num).innerText = "oh no";
+                document.getElementById('image'+num).src = "img/sad.jpg"
+            }
+        }
+    </script>
+
 <p>filer ex</p>
+<h1 id="q1-what-was-xxxxxxxxxxx">Q1: What was xxxxxxxxxxx?</h1>
+<h3 id="hint-help-me">Hint: (help me)</h3>
+<div>
+    <br><br>
+    <button class='md-button' onClick="mark(this, 1, true)">SHFJHFHFLKSDFHKJSDFHdkjsfhdsjkfhsdjfhskahdjkghasdkjhslkjadhajfhalkjfhwakjehf</button> <br><br>
+    <button class='md-button' onClick="mark(this, 1, false)">B</button> <br><br>
+    <button class='md-button' onClick="mark(this, 1, false)">C</button> <br><br>
+    <button class='md-button' onClick="mark(this, 1, false)">D</button> <br><br>
+    <p id='id1'>yeah its going</p>
+    <img id='image1' src="">
+    <hr>
+</div>
+
+<h1 id="q2-why">Q2: Why?</h1>
+<h3 id="give-answers-to-three-siginficant-digit">Give answers to three siginficant digit</h3>
+<div>
+    <br><br>
+    <button class='md-button' onClick="mark(this, 2, false)">A</button> <br><br>
+    <button class='md-button' onClick="mark(this, 2, false)">B</button> <br><br>
+    <button class='md-button' onClick="mark(this, 2, true)">C</button> <br><br>
+    <button class='md-button' onClick="mark(this, 2, false)">D</button> <br><br>
+    <p id='id2'></p>
+    <img id='image2' src="">
+</div>
 
               
             </article>
