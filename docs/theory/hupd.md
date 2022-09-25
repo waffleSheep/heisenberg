@@ -119,6 +119,7 @@ $$
 $$
 
 We can write the 2 equations in terms of $f$ and $g$ with the subs as such
+
 $$
 \begin{aligned}
 f&=(x-\mu_x)\Psi\\
