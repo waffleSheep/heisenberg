@@ -84,12 +84,13 @@ TBD TBD TBD HOW TF DO I FIND $\mu_{p^2}$
 $$\mu_{p^2}=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]^2\Psi\right)\,\mathrm {d} x$$
 
 Now that we know $\mu_{p^2}$ and $\mu_p$, we can find $\sigma_p^2$,
+
 $$
 \begin{aligned}
 \sigma_p^2&=\mu_{p^2}-\mu_p^2\\
 &=\mu_{p^2}-2\mu_p^2+\mu_p^2\\
 &=\mu_{p^2}-2\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]\mu_p\Psi\right)\,\mathrm {d} x+\mu_p^2\\
-&=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}-\mu_p\right]^2\Psi\right)\,\mathrm {d} x\\
+&=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}-\mu_p\right]^2\Psi\right)\,\mathrm {d} x
 \end{aligned}
 $$
 
