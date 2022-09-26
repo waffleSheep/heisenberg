@@ -79,9 +79,22 @@ $$
 
 Viola, we have figured it out.
 
-TBD TBD TBD HOW TF DO I FIND $\mu_{p^2}$
+Now, we must find $\mu_{p^2}$, we can find this by using the Hamiltonian operator. As discussed earlier
 
-$$\mu_{p^2}=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]^2\Psi\right)\,\mathrm {d} x$$
+$$
+\mu_E=\int _{-\infty}^{\infty} \left(\Psi^*\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}\right]\Psi\right)\,\mathrm {d} x
+$$
+
+We can use the equation $p^2=2mE$ to find
+
+$$
+\begin{aligned}
+\mu_{p^2}&=2m\mu_E\\
+&=2m\int _{-\infty}^{\infty} \left(\Psi^*\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}\right]\Psi\right)\,\mathrm {d} x\\
+&=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]^2\Psi\right)\,\mathrm {d} x\\
+
+\end{aligned}
+$$
 
 Now that we know $\mu_{p^2}$ and $\mu_p$, we can find $\sigma_p^2$,
 
