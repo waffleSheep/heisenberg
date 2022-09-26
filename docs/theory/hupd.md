@@ -1,12 +1,16 @@
 # Derivation of Heisenberg's Uncertainty Principle
 
-To derive the principle, we need to find the variance for the position and momentum of a given particle.
+To derive the principle, we need to find the variance for the position and momentum of a given particle and we have to use the schrodinger equation. 
 
-As discussed earlier, the Schrodinger equation was empirically developed and was found to be
+The Schrodinger equation was empirically developed and was found to be
+
+$$E\Psi (x)=\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}+V(x)\right]\Psi (x)$$
+
+and is further generalised to be
 
 $$i\hbar {\frac {\partial }{\partial t}}\Psi (x,t)=\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}+V(x,t)\right]\Psi (x,t)$$
 
-for a given quantum state $\Psi$. It was also discussed that the probability density amplitude function of the position of the particle in the sense that the probability of finding the particle between a and b is given by
+for a given quantum state $\Psi$. $\Psi$ is a complex valued function which is known as the quantum wave function such that the probability density amplitude function of the position of the particle in the sense that the probability of finding the particle between a and b is given by
 
 $$\operatorname {P} [a\leq X\leq b]=\int _{a}^{b}|\Psi (x)|^{2}\,\mathrm {d} x.$$
 
@@ -127,7 +131,7 @@ $$
 Combining this, we see
 
 $$
-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x= \left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2
+\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x\geq \left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2
 $$
 
 We can write the 2 equations in terms of $f$ and $g$ with the subs as such
@@ -178,7 +182,7 @@ $$
 \begin{aligned}
 \sigma_x^2\sigma_p^2 &=\int _{-\infty}^{\infty}(f^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(g^*g)\,\mathrm {d} x \\
 &\geq \int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x\\
-&=\left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2\\
+&\geq\left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2\\
 &=\left(\frac{i\hbar}{2i}\right)^2\\
 &=\left(\frac{\hbar}{2}\right)^2
 \end{aligned}
