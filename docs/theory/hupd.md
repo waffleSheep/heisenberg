@@ -91,8 +91,7 @@ $$
 \begin{aligned}
 \mu_{p^2}&=2m\mu_E\\
 &=2m\int _{-\infty}^{\infty} \left(\Psi^*\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}\right]\Psi\right)\,\mathrm {d} x\\
-&=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]^2\Psi\right)\,\mathrm {d} x\\
-
+&=\int _{-\infty}^{\infty} \left(\Psi^*\left[-i\hbar\frac{\partial }{\partial x}\right]^2\Psi\right)\,\mathrm {d} x
 \end{aligned}
 $$
 
