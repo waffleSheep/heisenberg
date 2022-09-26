@@ -512,10 +512,12 @@
 
 
 <h1 id="derivation-of-heisenbergs-uncertainty-principle">Derivation of Heisenberg's Uncertainty Principle</h1>
-<p>To derive the principle, we need to find the variance for the position and momentum of a given particle.</p>
-<p>As discussed earlier, the Schrodinger equation was empirically developed and was found to be</p>
+<p>To derive the principle, we need to find the variance for the position and momentum of a given particle and we have to use the schrodinger equation. </p>
+<p>The Schrodinger equation was empirically developed and was found to be</p>
+<div class="arithmatex">\[E\Psi (x)=\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}+V(x)\right]\Psi (x)\]</div>
+<p>and is further generalised to be</p>
 <div class="arithmatex">\[i\hbar {\frac {\partial }{\partial t}}\Psi (x,t)=\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}+V(x,t)\right]\Psi (x,t)\]</div>
-<p>for a given quantum state <span class="arithmatex">\(\Psi\)</span>. It was also discussed that the probability density amplitude function of the position of the particle in the sense that the probability of finding the particle between a and b is given by</p>
+<p>for a given quantum state <span class="arithmatex">\(\Psi\)</span>. <span class="arithmatex">\(\Psi\)</span> is a complex valued function which is known as the quantum wave function such that the probability density amplitude function of the position of the particle in the sense that the probability of finding the particle between a and b is given by</p>
 <div class="arithmatex">\[\operatorname {P} [a\leq X\leq b]=\int _{a}^{b}|\Psi (x)|^{2}\,\mathrm {d} x.\]</div>
 <p>Since the expectation for a variable is defined as such</p>
 <div class="arithmatex">\[\mu_x=\int _{-\infty}^{\infty}x\cdot\operatorname {P} [X=x]\,\mathrm {d} x\]</div>
@@ -604,7 +606,7 @@
 \]</div>
 <p>Combining this, we see</p>
 <div class="arithmatex">\[
-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x= \left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2
+\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x\geq \left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2
 \]</div>
 <p>We can write the 2 equations in terms of <span class="arithmatex">\(f\)</span> and <span class="arithmatex">\(g\)</span> with the subs as such</p>
 <div class="arithmatex">\[
@@ -645,7 +647,7 @@ g^*&amp;=\Psi^*\left[-i\hbar\frac{\partial }{\partial x}-\mu_p\right]
 \begin{aligned}
 \sigma_x^2\sigma_p^2 &amp;=\int _{-\infty}^{\infty}(f^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(g^*g)\,\mathrm {d} x \\
 &amp;\geq \int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d} x\\
-&amp;=\left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2\\
+&amp;\geq\left(\frac{\int _{-\infty}^{\infty}(f^*g)\,\mathrm {d}x-\int _{-\infty}^{\infty}(g^*f)\,\mathrm {d} x}{2i}\right)^2\\
 &amp;=\left(\frac{i\hbar}{2i}\right)^2\\
 &amp;=\left(\frac{\hbar}{2}\right)^2
 \end{aligned}
