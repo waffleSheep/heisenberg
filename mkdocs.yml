@@ -66,7 +66,8 @@ nav:
     - theory/qm.md
     - theory/hupd.md
   - Applications:
-    - applications/index.md
-    - applications/Getting Started.md
+    - applications/electron.md
+    - applications/app2.md
+    - applications/app3.md
   - Resources: resources/index.md
   - Quiz: quiz/index.md

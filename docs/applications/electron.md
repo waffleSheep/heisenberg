@@ -2,7 +2,7 @@
 
 
 
-The radius of the necleus is approximately ${10}^{14}m$. We shall start by assuming that electrons exist in the nucleus. Hence the uncertainty in the position of the electron is given by:
+The radius of the necleus is approximately ${10}^{-14}m$. We shall start by assuming that electrons exist in the nucleus. Hence the uncertainty in the position of the electron is given by:
 
 $$\sigma_x= {10}^{-14}m$$
 
