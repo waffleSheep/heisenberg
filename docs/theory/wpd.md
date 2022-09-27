@@ -42,11 +42,24 @@ However, Albert Einstein came to the rescue and explained this phenomenon while 
 
 $${E}_{photon}=hf$$
 
-This explained the fact as to why the kinetic energy increased with frequency because since energy could only be transmitted discretely as compared to a continuous wave, only photons with high enough energy were able to free the electrons from the surface when hit regardless of the amplitude of the wave. It also explained why current increased with amplitude because an increase in amplitude caused and increase in the amount of photons hitting the metal surface.
+This explained the fact as to why the kinetic energy increased with frequency because since energy could only be transmitted discretely as compared to a continuous wave, only photons with high enough energy were able to free the electrons from the surface when hit regardless of the amplitude of the wave. It also explained why current increased with amplitude because an increase in amplitude caused and increase in the amount of photons hitting the metal surface
 
 ![image](img/wave_packet.gif){: style="width:300px;display: block; margin: 0 auto"}
 
-Of course, Einstein realised that light could not be just a particle because particles collide and light interferes so he postulated that light as consisted of spatially localized, discrete wave-packets. These wave-packets have properties of both wave and particles because they interfere like waves but are still localised like particles.
+Of course, Einstein realised that light could not be just a particle because particles collide and light interferes so he postulated that light as consisted of spatially localized, discrete wave-packets. These wave-packets have properties of both wave and particles because they interfere like waves but are still localised like particles. Einstein also defined the momentum of a photon as such
+
+$$p_{photon}=\frac{E_{photon}}{c}$$
 
 ## de Broglie's hypothesis
+
+In 1924, French Phsyicist Louis De Brogile came up with the idea that all matter exhibits both wave and particle properties and that the wavelength of a particle is related to it's momentum in the following way
+
+$$\lambda = \frac{h}{p}$$
+
+This equation is the same as einstein's equation but applied to matter. In 1927, his theory was further confirmed by 2 different experiments.
+
+### Electron Diffraction
+
+### Davisson-Germer Experiment
+
 
