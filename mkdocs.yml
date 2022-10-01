@@ -23,7 +23,7 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
-    logo: material/atom
+    logo: material/atom-variant
 
   palette:
     - scheme: slate
