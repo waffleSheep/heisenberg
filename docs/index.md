@@ -11,4 +11,4 @@ To the classical physicist, the very notion and existence of the uncertainty pri
 ## Information
 This site was created by Karimi Zayan, Lim Lynus and Vernon Jude Pui Zhi Xian from M22505 for the PC5132 Advanced Physics IV module.
 
-The site is about Heisenberg's uncertainty principle and its real-life applications. The site is intended for students of ages 18-21 with basic knowledge of calculus, classical physics and statistics and are keen to learn more.
+The site is about Heisenberg's uncertainty principle and its applications. The site is intended for students of ages 18-21 with basic knowledge of calculus, classical physics and statistics and are keen to learn more.

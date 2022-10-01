@@ -60,6 +60,11 @@ This equation is the same as einstein's equation but applied to matter. In 1927,
 
 ### Electron Diffraction
 
+Diffraction is the spreading out of waves through an aperture or around objects. It occurs when the size of the aperture or object is the same order of magnitude as the wavelength of the wave. Visible light has wavelengths of maginute $10^{-7}m$. Hence, the slit width was relatively wide. When multple slits or ridges are placed at regular intervals, it is called a diffraction grating and forms a interference pattern due to the repeated constructive and destructive interference of waves.
+
+![image](img/diffraction_grating.png){: style="width:300px;display: block; margin: 0 auto"}
+
+The same was shown for electron's in the electron diffraction 
 ### Davisson-Germer Experiment
 
 
