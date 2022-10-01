@@ -22,7 +22,7 @@ Planck made the assertion that only the energy of radiating atoms was quantised 
 
 ## The electron and the photoelectric effect
 
-Around the same time, JJ Thompson discovered the first subatomic particle known as the electron through the cathode ray experiment. The electron had a negative charge and it was speculated that atoms consisted of a positively charged volume with electrons. This was known as the plum-pudding model.
+Around the same time, JJ Thomson discovered the first subatomic particle known as the electron through the cathode ray experiment. The electron had a negative charge and it was speculated that atoms consisted of a positively charged volume with electrons. This was known as the plum-pudding model.
 
 ![image](img/plum_pudding.jpg){: style="width:300px;display: block; margin: 0 auto"}
 
@@ -60,11 +60,43 @@ This equation is the same as einstein's equation but applied to matter. In 1927,
 
 ### Electron Diffraction
 
-Diffraction is the spreading out of waves through an aperture or around objects. It occurs when the size of the aperture or object is the same order of magnitude as the wavelength of the wave. Visible light has wavelengths of maginute $10^{-7}m$. Hence, the slit width was relatively wide. When multple slits or ridges are placed at regular intervals, it is called a diffraction grating and forms a interference pattern due to the repeated constructive and destructive interference of waves.
+Diffraction is the spreading out of waves through an aperture or around objects. It occurs when the size of the aperture or object is the same order of magnitude as the wavelength of the wave. Visible light has wavelengths of maginutde $100 \, nm$. Hence, the slit width was relatively wide. When multple slits or ridges are placed at regular intervals, it is called a diffraction grating and forms a interference pattern due to the repeated constructive and destructive interference of waves.
 
 ![image](img/diffraction_grating.png){: style="width:300px;display: block; margin: 0 auto"}
 
-The same was shown for electron's in the electron diffraction 
+The same was shown for electron's in the electron diffraction experiment carried out during carried out by George Thomson (Son of JJ Thomson) in 1927. This was difficult to show as the electron's wavelength is very small. If we accelerate the electron across a potential difference, we know that
+
+$$
+K=\frac{p^2}{2m}=q_eV
+$$
+
+If we apply the wavelength equation from earlier, we see that
+
+$$
+\lambda = \frac{h}{\sqrt{2 m V q_e}}\\
+\lambda = \frac{1.228}{\sqrt{V}} nm
+$$
+
+For an accurate result, the electrons would have to be accelerated at high velocities, which is why voltages used were in kilovolts. Hence, the wavelength of the electron would have a magnitude of $100 \, pm$. For context, the width of a helium atom is $62 \, pm$.
+
+![image](img/graphene.png){: style="width:400px;display: block; margin: 0 auto"}
+
+Hence, to account for this problem, Thomson used a thin piece of graphene which has a hexagonal structure as his grating. The graphene ring has a side length of $0.142\,nm$ making it a perfect diffraction grating for this problem.
+
+![image](img/electron_diffraction.png){: style="width:500px;display: block; margin: 0 auto"}
+
+In the simplified diagram above, electrons are beamed through a thin graphene sheet. it was shown that the electrons formed a interference pattern similar to that of diffraction with a circular aperture which were consistent with Bragg's law. This showed that electrons exhibited wave-like properties in that they constructively and destructively interfered like waves.
+
 ### Davisson-Germer Experiment
+
+The Davisson-Germer Experiment showed a similar result with a slightly different setup. Electrons were beamed at a Nickel target at various angles and the intensity was measured with a movable detector.
+
+![image](img/davisson_g_setup.png){: style="width:300px;display: block; margin: 0 auto"}
+
+In this case, the electrons are reflected off of Nickel. They found that the intensity of the light measured peaked at certain angles which was once again consistent with Bragg's law. This is because Nickel has a lattice-like structure formed by its atoms and the lattice spacing is small enough to cause diffraction.
+
+# Conclusion
+
+By 1927, wave-particle duality was shown for both matter and light. Around that same time Heisenberg was developing his matrix mechanics for quantum mechanics. He was developing this system because at that point the motion of an electron was more spread out in a strange way as compared to being completely deterministic. However, through his calculations, Heisenberg found something shocking about the nature of matter and light.
 
 
