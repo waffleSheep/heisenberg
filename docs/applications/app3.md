@@ -23,8 +23,26 @@ $$
 \begin{aligned}
 \sigma_{x}_{x}\sigma_{p}_{x}&= \frac{h}{4\pi}\\
 Solving for the minimum uncertainty in momemtum
-p\texttildelow (\sigma_{{p}_{min}})\texttildelow\frac{h}{4\sigma_{p}_{xmax}\pi} =\frac{h}{4x\pi} 
+p\texttildelow (\sigma_{{p}_{min}})\texttildelow\frac{h}{4\sigma_{p}_{xmax}\pi} =\frac{h}{4r\pi}  = \frac{\hbar}{2r}
 
 \end{aligned}
 
 $$
+So,
+$$
+\begin{aligned}
+E =  0 + \frac{{(\frac{\hbar}{2r})}^{2}}{2m} -\frac{(|e|)(|e|)}{(4\pi{\epsilon}_{0}r)} = \frac{{\hbar}^{2}}{8mr} -\frac{{|e|}^{2}}{(4\pi{\epsilon}_{0}r)}
+
+\end{aligned}
+$$
+when $\frac{dE}{dr} = 0 at r = {r}_{1}$ , then that would be the lowest possible energy the atom would have, which wou;d be at ground state.
+$$
+\begin{aligned}
+\frac{d}{dr}(\frac{{h}^{2}}{8m{r}^{2}}-\frac{{|e|}^{2}}{4\pi{\epsilon}_{0}r})  = 0 => - \frac{{h}^{2}}{4m{r}^{3}}+\frac{{|e|}^{2}}{4\pi{\epsilon}_{0}{r}^{2}} = 0
+\frac{{h}^{2}}{4mr}=\frac{{|e|}^{2}}{4\pi{\epsilon}_{0}}\\
+{r}_{1} = \pi{\epsilon}_{0}\frac{{h}^{2}}{m{|e|}^{2}}\\
+= \pi X \frac{{10}^{-9}}{36\pi} X \frac{{(\frac{6.626x{10}^{-34}}{2\pi})}^{2}}{{(9.1 x {10}^{-31})(1.6 x {10}^{-19})}^{2}} = 1.33 x {10}^{-11}m\\
+ = 0.0132\AA
+\end{aligned}
+$$
+Hence the radius of the hydrogen atom in the first ground state is $0.0132\AA$.
