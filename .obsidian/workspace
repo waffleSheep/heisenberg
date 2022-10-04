@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/theory/qm.md",
+            "file": "docs/theory/wpd.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/theory/qm.md",
+                "file": "docs/theory/wpd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "461456df2e844b4c",
   "lastOpenFiles": [
-    "docs/theory/hupd.md",
+    "docs/resources/index.md",
+    "docs/quiz/img/happy.jpg",
     "docs/theory/qm.md",
     "docs/theory/wpd.md",
-    "docs/applications/electron.md",
+    "docs/theory/hupd.md",
+    "docs/quiz/index.md",
     "docs/applications/app3.md",
     "docs/applications/app2.md",
-    "docs/quiz/index.md",
-    "docs/img/heisenberg.jpg",
-    "docs/img/zayan.jpeg",
-    "docs/img/vernon.jpeg"
+    "docs/applications/electron.md",
+    "docs/img/heisenberg.jpg"
   ]
 }

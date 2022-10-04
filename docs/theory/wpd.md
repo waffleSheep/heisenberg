@@ -95,7 +95,7 @@ The Davisson-Germer Experiment showed a similar result with a slightly different
 
 In this case, the electrons are reflected off of Nickel. They found that the intensity of the light measured peaked at certain angles which was once again consistent with Bragg's law. This is because Nickel has a lattice-like structure formed by its atoms and the lattice spacing is small enough to cause diffraction.
 
-# Conclusion
+## Conclusion
 
 By 1927, wave-particle duality was shown for both matter and light. Around that same time Heisenberg was developing his matrix mechanics for quantum mechanics. He was developing this system because at that point the motion of an electron was more spread out in a strange way as compared to being completely deterministic. However, through his calculations, Heisenberg found something shocking about the nature of matter and light.
 

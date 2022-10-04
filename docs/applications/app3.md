@@ -21,12 +21,14 @@ From the Heisenberg Uncertainty Principle:
 
 $$
 \begin{aligned}
-\sigma_{x}_{x}\sigma_{p}_{x}&= \frac{h}{4\pi}\\
-Solving for the minimum uncertainty in momemtum
-p\texttildelow (\sigma_{{p}_{min}})\texttildelow\frac{h}{4\sigma_{p}_{xmax}\pi} =\frac{h}{4r\pi}  = \frac{\hbar}{2r}
-
+\sigma_{x_x}\sigma_{p_x}&= \frac{h}{4\pi}\\
 \end{aligned}
-
+$$
+Solving for the minimum uncertainty in momemtum
+$$
+\begin{aligned}
+p(\sigma_{p_{min}}) \approx \frac{h}{4\sigma_{p_{xmax}}\pi}
+\end{aligned}
 $$
 So,
 $$

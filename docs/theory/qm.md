@@ -58,6 +58,12 @@ On the other hand, if we increase $\varepsilon$ by widening the microscope's ape
 
 Looking at the equations together, we begin to get a picture of why we cannot perfectly determine both the momentum and the position of an electron. Any action taken to decrease the uncertainty of either momentum or position will increase the uncertainty in the other variable. 
 
+Heisenberg used these results to formulate an approximate expression of the uncertainty principle,
+
+$$
+\Delta{x}\Delta{p_x} \approx \frac{\lambda}{\sin{\varepsilon}}
+$$
+
 
 ### Confusion with the Observer Effect
 Heisenberg's original thought experiment made use of the observer effect (also known as observer's paradox), in which the act of measurement causes the system to change. Unfortunately this has led to people incorrectly attributing the uncertainty principle TO the observer effect.
@@ -69,3 +75,7 @@ The observer effect is undeniably at play in the act of measurement, but its inv
 Momentum and position are incompatible observables, and are special in that they are canonical conjugate quantities. That is, one is the Fourier transform of the other. Such pairs of variables do not commute, which implies that **no quantum state can simultaneously be a position eigenstate and a momentum eigenstate**. 
 
 In other words, there exists no such preparation of a system such that only one possible value of BOTH position and momentum can be associated with it. If we measure the momentum and force the system into a momentum eigenstate, the state cannot be a position eigenstate - i.e. the value of momentum corresponds to multiple possible states, each with different values of position. There is a limit to how much we can know simultaneously about position and momentum, and this limit is quantified in Heisenberg's Uncertainty Principle.
+
+<iframe width="420" height="315"  
+src="https://www.youtube.com/embed/tgbNymZ7vqY">  
+</iframe>
