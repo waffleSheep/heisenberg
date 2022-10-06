@@ -5,6 +5,10 @@ Quantum mechanics is the study of the physical properties of matter, on the scal
 
 Classical physics on the other hand studies matter and energy on a macroscopic scale - that is, on a scale that we are more used to seeing in daily life.
 
+<figure markdown>
+![image](img/classicvsquantum_med_hr.jpeg){ width="500" }
+<figcaption>Image courtesy of <a>http://clearlyexplained.com/quantum-mechanics/index.html</a></figcaption>
+</figure>
 
 Though the mathematical basis of quantum mechanics is well-agreed upon (and verified through experiments), there exist many different ways to explain how these mathematical theories correspond to our experienced reality. These are known as **interpretations** of quantum mechanics, and there is no consensus on which one "best" represents our reality.
 
@@ -24,7 +28,10 @@ Of course, if you can SEE the ball, you definitely know where it is. We know int
 
 This is known as the measurement problem, and the Copenhagen interpretation explains it as follows: When we perform a measurement on an observable quantity, we are forcing the system into a state where the observable has a single, definite value. This is known as an eigenstate of that observable.
 
-
+<figure markdown>
+![image](img/collapse.gif){ width="500" }
+<figcaption>Animation courtesy of <a>https://www.quantamagazine.org/what-is-a-particle-20201112/</a></figcaption>
+</figure>
 
 As a (poorly contrived, but 100% original) analogy, think of a spinning coin. 
 
@@ -38,30 +45,37 @@ But imagine now we slap the coin with our palm, flat onto the table. When we lif
 Heisenberg's microscope describes the thought experiment that Heisenberg formulated as an introduction to his uncertainty principle. Suppose we wish to determine the position and momentum of an electron, which we will (ironically) treat as a classical particle.
 
 Let the wavelength of the light rays be $\lambda$.
-Let the cone of light rays focusing on the electron make an angle $\varepsilon$ with the electron. 
+Let the cone of light rays focusing on the electron make an angle $2\theta$ with the electron. 
 
-The laws of classical optics tells us that we can only resolve the position of the electron to the following accuracy:
+According to the Rayleigh criterion, we can only resolve the position of the electron to the following accuracy. Our uncertainty in lateral position $\Delta{x}$ is related to the wavelength of light and angle $\theta$ as follows:
 $$
-\Delta{x}=\frac{\lambda}{\sin{\varepsilon}}
+\Delta{x}=\frac{\lambda}{2\sin{\theta}}
 $$
 
-We also know that when a photon strikes an electron, the electron experiences Compton recoil with momentum proportional to $\frac{h}{\lambda}$. But since the direction of the scattered photon can be anywhere within the cone of light rays, we can only determine the electron's momentum in the x direction to the following accuracy:
+
+We also know that when a photon strikes an electron, the electron experiences Compton recoil with momentum proportional to $\frac{h}{\lambda}$. But since the direction of the scattered photon can be anywhere within the cone of light rays, we cannot determine the angle from which the photon collided with the electron! This is illustrated below:
+
+<figure markdown>
+![image](img/microscope.jpg){ width="500" }
+</figure>
+
+As such, we can only determine the electron's momentum in the x direction to the following accuracy:
 $$
-\Delta{p}_{x} \approx \frac{h}{\lambda}\sin{\varepsilon}
+\Delta{p}_{x} \approx \frac{h}{\lambda}2\sin{\theta}
 $$
 
 Suppose we want to decrease the uncertainty of the position, i.e. decrease $\Delta{x}$.
 
 If we decrease the wavelength of light, we can resolve the position to a greater accuracy. But the photon will strike the electron with more momentum and result in even greater uncertainty in the electron's final momentum.
 
-On the other hand, if we increase $\varepsilon$ by widening the microscope's aperture, we can also resolve the position to a greater accuracy (shown by the Rayleigh criterion). But since the angle the cone of light makes with the electron is larger, the scattered photon could be moving in a wider range of directions. This also increases the uncertainty in the electron's final momentum in the x-direction.
+On the other hand, if we increase $\theta$ by widening the microscope's aperture, we can also resolve the position to a greater accuracy (as shown by the Rayleigh criterion). But since the angle the cone of light makes with the electron is larger, the scattered photon could be moving in a wider range of directions. This also increases the uncertainty in the electron's final momentum in the x-direction.
 
 Looking at the equations together, we begin to get a picture of why we cannot perfectly determine both the momentum and the position of an electron. Any action taken to decrease the uncertainty of either momentum or position will increase the uncertainty in the other variable. 
 
 In 1927, Heisenberg used these results to formulate an approximate expression of the uncertainty principle,
 
 $$
-\Delta{x}\Delta{p_x} \approx \frac{\lambda}{\sin{\varepsilon}} \left(\frac{h}{\lambda}\sin{\varepsilon}\right) = h
+\Delta{x}\Delta{p_x} \approx \frac{\lambda}{2\sin{\theta}} \left(\frac{h}{\lambda}2\sin{\theta}\right) = h
 $$ 
 It would only be later in that year when Earle Hesse Kennard would first prove the inequality we associate with the uncertainty principle today:
 
@@ -87,7 +101,10 @@ According to the De Broglie hypothesis, all matter has a wave-like nature. In qu
 
 Consider the below animation, which shows a wave packet in position space moving from left to right.
 
-![image](img/wave_packet.gif)
+<figure markdown>
+![image](img/wave_packet.gif){width="300"}
+<figcaption>Animation courtesy of WikiMedia</figcaption>
+</figure>
 
 At each point for a certain instant in time, the amplitude of the wave in position space gives us the probability of finding the particle at that position. Wave packets such as these are caused by the constructive interference of several component waves over a small region of space, and destructive interference everywhere else.
 

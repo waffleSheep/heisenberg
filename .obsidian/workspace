@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/quiz/index.md",
+            "file": "docs/theory/qm.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/quiz/index.md",
+                "file": "docs/theory/qm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "461456df2e844b4c",
   "lastOpenFiles": [
-    "docs/applications/electron.md",
-    "docs/resources/index.md",
-    "docs/theory/qm.md",
-    "docs/quiz/index.md",
-    "docs/theory/wpd.md",
-    "docs/quiz/img/happy.jpg",
     "docs/theory/hupd.md",
-    "Pasted image 20221004105030.png",
-    "docs/applications/app3.md",
-    "docs/applications/app2.md"
+    "docs/theory/img/microscope.jpg",
+    "docs/theory/qm.md",
+    "docs/theory/img/classicvsquantum_med_hr.jpeg",
+    "docs/theory/img/wave_packet.gif",
+    "docs/theory/img/plum_pudding.jpg",
+    "docs/theory/img/photoelectric.png",
+    "docs/theory/img/electron_diffraction.png",
+    "docs/theory/img/diffraction_grating.png",
+    "docs/theory/img/albert.jpg"
   ]
 }
