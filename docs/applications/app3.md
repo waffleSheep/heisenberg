@@ -1,7 +1,6 @@
 # Determining the size of the hydrogen atom in ground state
 
 
-
 The total energy of the system is:
 $$
 \begin{aligned}
@@ -43,8 +42,9 @@ $$
 \frac{d}{dr}(\frac{{h}^{2}}{8m{r}^{2}}-\frac{{|e|}^{2}}{4\pi{\epsilon}_{0}r})  = 0 => - \frac{{h}^{2}}{4m{r}^{3}}+\frac{{|e|}^{2}}{4\pi{\epsilon}_{0}{r}^{2}} = 0
 \frac{{h}^{2}}{4mr}=\frac{{|e|}^{2}}{4\pi{\epsilon}_{0}}\\
 {r}_{1} = \pi{\epsilon}_{0}\frac{{h}^{2}}{m{|e|}^{2}}\\
-= \pi X \frac{{10}^{-9}}{36\pi} X \frac{{(\frac{6.626x{10}^{-34}}{2\pi})}^{2}}{{(9.1 x {10}^{-31})(1.6 x {10}^{-19})}^{2}} = 1.33 x {10}^{-11}m\\
- = 0.0132\AA
+= \pi \times \frac{{10}^{-9}}{36\pi} \times \frac{{(\frac{6.626x{10}^{-34}}{2\pi})}^{2}}{{(9.1 x {10}^{-31})(1.6 x {10}^{-19})}^{2}} = 1.33 x {10}^{-11}m\\
+ = 0.0132Angstroms
+
 \end{aligned}
 $$
-Hence the radius of the hydrogen atom in the first ground state is $0.0132\AA$.
+Hence the radius of the hydrogen atom in the first ground state is $0.0132$Angstroms.

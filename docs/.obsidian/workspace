@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "3a4e0e4500e289cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "d47de6690d65d959",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "applications/app2.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6e63f4449d24753f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee2cfc94f519abdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f09713737f37de1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c524817e8a6804e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a8aa513277285bf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bc0db81ea328c95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b36bbab765878db",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "applications/app2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d47de6690d65d959",
+  "lastOpenFiles": [
+    "applications/app2.md",
+    "applications/app3.md",
+    "applications/electron.md",
+    "theory/qm.md",
+    "theory/wpd.md",
+    "theory/hupd.md",
+    "applications/img/aaa.png",
+    "img/heisenberg.jpg",
+    "index.md",
+    "applications/img/Scanning_Tunneling_Microscope.png"
+  ]
+}
