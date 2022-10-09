@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/index.md",
+            "file": "docs/resources/index.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/resources/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,13 +91,13 @@
   "lastOpenFiles": [
     "docs/theory/qm.md",
     "docs/resources/index.md",
+    "docs/resources/distribution.png",
+    "docs/quiz/img/sad.jpg",
+    "docs/index.md",
     "docs/theory/wpd.md",
     "docs/applications/app3.md",
     "docs/applications/app2.md",
     "docs/quiz/index.md",
-    "docs/theory/hupd.md",
-    "docs/applications/electron.md",
-    "docs/index.md",
-    "docs/quiz/img/sad.jpg"
+    "docs/theory/hupd.md"
   ]
 }

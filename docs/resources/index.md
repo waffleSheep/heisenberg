@@ -1,5 +1,7 @@
-# Resources among us
+# Resources
+Distribution of work can be found at the bottom of this page.
 
+## References
 1.   Sen, D. (2014). ["The Uncertainty relations in quantum mechanics"](http://www.currentscience.ac.in/Volumes/107/02/0203.pdf) (PDF). _Current Science_. **107** (2): 203–218.
 2. Werner Heisenberg, Encounters with Einstein and Other Essays on People, Places and Particles, Published October 21st 1989 by Princeton University Press,p.53.
 3.  M.Dolling, Lisa, et al., editors. The Tests of Time: Readings in the Development of Physical Theory. Princeton University Press, 2003, p. 412. [https://doi.org/10.2307/j.ctvcm4h07](https://doi.org/10.2307/j.ctvcm4h07).
@@ -121,3 +123,8 @@
 120. [https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Heisenberg%27s_Uncertainty_Principle](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Heisenberg%27s_Uncertainty_Principle "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Heisenberg%27s_Uncertainty_Principle") 
 121. [https://www.physicsoftheuniverse.com/topics_quantum_uncertainty.html](https://www.physicsoftheuniverse.com/topics_quantum_uncertainty.html "https://www.physicsoftheuniverse.com/topics_quantum_uncertainty.html") 
 122. [https://www.scienceabc.com/pure-sciences/what-is-quantum-tunneling.html](https://www.scienceabc.com/pure-sciences/what-is-quantum-tunneling.html "https://www.scienceabc.com/pure-sciences/what-is-quantum-tunneling.html")
+
+
+<hr> 
+## Distribution of Work
+![image](distribution.png)
