@@ -112,13 +112,13 @@
 <button class='md-button' onClick="mark(this, 4, false)">D</button> 
 <br><br>
 
-<section id='incorrect3' style="display:none;" markdown="block"> 
+<section id='incorrect4' style="display:none;" markdown="block"> 
 !!! failure "Incorrect!"
 	Try again?
 	
 	![image](img/sad.jpg){ style=width:200px  }
 </section>
-<section id='explanation3' style="display:none;" markdown="block"> 
+<section id='explanation4' style="display:none;" markdown="block"> 
 !!! success "Correct!"
 	These milestones were done by Hertz, **Planck**, Einstein and De Broglie respectively.
 	
@@ -139,13 +139,13 @@
 <button class='md-button' onClick="mark(this, 5, true)">D</button> 
 <br><br>
 
-<section id='incorrect3' style="display:none;" markdown="block"> 
+<section id='incorrect5' style="display:none;" markdown="block"> 
 !!! failure "Incorrect!"
 	Try again?
 	
 	![image](img/sad.jpg){ style=width:200px  }
 </section>
-<section id='explanation3' style="display:none;" markdown="block"> 
+<section id='explanation5' style="display:none;" markdown="block"> 
 !!! success "Correct!"
 	Wave-function collapse is still not well-understood, and is explained differently across different interpretations of quantum mechanics. But Heisenberg's Uncertainty Principle and its mathematical basis stands true across all interpretations.
 	
@@ -166,13 +166,13 @@
 <button class='md-button' onClick="mark(this, 6, false)">D</button> 
 <br><br>
 
-<section id='incorrect3' style="display:none;" markdown="block"> 
+<section id='incorrect6' style="display:none;" markdown="block"> 
 !!! failure "Incorrect!"
 	Try again?
 	
 	![image](img/sad.jpg){ style=width:200px  }
 </section>
-<section id='explanation3' style="display:none;" markdown="block"> 
+<section id='explanation6' style="display:none;" markdown="block"> 
 !!! success "Correct!"
 	The proof of this result is left to the reader as an exercise.
 	
