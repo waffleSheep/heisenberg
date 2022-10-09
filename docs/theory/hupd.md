@@ -83,13 +83,13 @@ $$
 
 Viola, we have figured it out.
 
-Now, we must find $\mu_{p^2}$, we can find this by using the Hamiltonian operator. As discussed earlier
+Now, we must find $\mu_{p^2}$, we can find this by using the Schrodinger Equation and applying it to  find the expected energy.
 
 $$
 \mu_E=\int _{-\infty}^{\infty} \left(\Psi^*\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}\right]\Psi\right)\,\mathrm {d} x
 $$
 
-We can use the equation $p^2=2mE$ to find
+We can now use the equation $p^2=2mE$ to find
 
 $$
 \begin{aligned}
@@ -176,7 +176,7 @@ $$
 \end{aligned}
 $$
 
-Finally, we can combine the inequality and what we found
+This result is known as the Canonical Conjugate Relation. Finally, we can combine the inequality and what we found
 
 $$
 \begin{aligned}
