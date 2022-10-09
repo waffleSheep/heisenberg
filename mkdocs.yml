@@ -68,7 +68,7 @@ nav:
     - theory/hupd.md
   - Applications:
     - applications/electron.md
-    - applications/app2.md
-    - applications/app3.md
+    - applications/tunneling.md
+    - applications/hydrogen.md
   - Resources: resources/index.md
   - Quiz: quiz/index.md

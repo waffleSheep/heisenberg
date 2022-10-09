@@ -9,7 +9,7 @@ E &= KE_{\text{electron}} + KE_{\text{proton}} + PE_{\text{electron-proton inter
 \end{aligned}
 $$
 
-where m = eletron mass, and ${\epsilon}_{0} = \frac{{10}^{-9}}{36\pi} F/m$ also known as the permittivity of free space.
+where m = electron mass, and ${\epsilon}_{0} = \frac{{10}^{-9}}{36\pi} F/m$ also known as the permittivity of free space.
 
 $$\begin{aligned}
 E = 0 + \frac{{p}^{2}}{2m} -\frac{(|e|)(|e|)}{(4\pi{\epsilon}_{0}r)}
