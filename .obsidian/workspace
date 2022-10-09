@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/quiz/index.md",
+            "file": "docs/resources/index.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/quiz/index.md",
+                "file": "docs/resources/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,12 +90,12 @@
   "active": "461456df2e844b4c",
   "lastOpenFiles": [
     "docs/theory/wpd.md",
-    "docs/theory/qm.md",
-    "docs/theory/hupd.md",
-    "docs/applications/app2.md",
     "docs/applications/app3.md",
-    "docs/applications/electron.md",
+    "docs/applications/app2.md",
+    "docs/theory/qm.md",
     "docs/quiz/index.md",
+    "docs/theory/hupd.md",
+    "docs/applications/electron.md",
     "docs/resources/index.md",
     "docs/index.md",
     "docs/quiz/img/sad.jpg"
