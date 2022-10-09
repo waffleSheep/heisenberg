@@ -120,8 +120,3 @@ But with our quantum state now consisting of more varying wavelengths, the uncer
 On the other hand, imagine if our quantum state consisted of only one fixed-wavelength wave. Any measurement must give us the same value of momentum, but the probability distribution for its position would be spread out throughout all of the space (consider a regular sine wave). There is now no uncertainty in momentum, but an enormous uncertainty in the position.
 
 This property is not unique to position and momentum. Any two variables that are Fourier transforms of each other (i.e. conjugate variables) will also suffer a similar trade-off. The more concentrated a certain function is, the more spread out its Fourier transform will be.
-
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qsGiB7kq8fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
