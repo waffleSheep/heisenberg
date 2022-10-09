@@ -89,15 +89,15 @@
   },
   "active": "461456df2e844b4c",
   "lastOpenFiles": [
+    "docs/applications/electron.md",
+    "docs/applications/app2.md",
+    "docs/index.md",
+    "docs/resources/index.md",
+    "docs/quiz/index.md",
+    "docs/theory/wpd.md",
     "docs/theory/hupd.md",
-    "docs/theory/img/microscope.jpg",
     "docs/theory/qm.md",
-    "docs/theory/img/classicvsquantum_med_hr.jpeg",
-    "docs/theory/img/wave_packet.gif",
-    "docs/theory/img/plum_pudding.jpg",
-    "docs/theory/img/photoelectric.png",
-    "docs/theory/img/electron_diffraction.png",
-    "docs/theory/img/diffraction_grating.png",
-    "docs/theory/img/albert.jpg"
+    "docs/theory/img/microscope.jpg",
+    "docs/theory/img/classicvsquantum_med_hr.jpeg"
   ]
 }
