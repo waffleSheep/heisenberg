@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "applications/app2.md",
-            "mode": "preview"
+            "file": "applications/tunneling.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "applications/app2.md",
+                "file": "applications/tunneling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "d47de6690d65d959",
   "lastOpenFiles": [
-    "applications/app2.md",
-    "applications/app3.md",
+    "applications/hydrogen.md",
     "applications/electron.md",
+    "resources/distribution.png",
+    "resources/index.md",
+    "quiz/index.md",
+    "theory/hupd.md",
     "theory/qm.md",
     "theory/wpd.md",
-    "theory/hupd.md",
-    "applications/img/aaa.png",
-    "img/heisenberg.jpg",
-    "index.md",
-    "applications/img/Scanning_Tunneling_Microscope.png"
+    "applications/tunneling.md",
+    "img/vernon.jpeg"
   ]
 }

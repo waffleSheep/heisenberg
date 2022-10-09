@@ -123,6 +123,7 @@ Distribution of work can be found at the bottom of this page.
 120. [https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Heisenberg%27s_Uncertainty_Principle](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Heisenberg%27s_Uncertainty_Principle "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/02._Fundamental_Concepts_of_Quantum_Mechanics/Heisenberg%27s_Uncertainty_Principle") 
 121. [https://www.physicsoftheuniverse.com/topics_quantum_uncertainty.html](https://www.physicsoftheuniverse.com/topics_quantum_uncertainty.html "https://www.physicsoftheuniverse.com/topics_quantum_uncertainty.html") 
 122. [https://www.scienceabc.com/pure-sciences/what-is-quantum-tunneling.html](https://www.scienceabc.com/pure-sciences/what-is-quantum-tunneling.html "https://www.scienceabc.com/pure-sciences/what-is-quantum-tunneling.html")
+123. [http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/barr.html](http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/barr.html)
 
 
 <hr> 
