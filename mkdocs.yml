@@ -26,12 +26,12 @@ theme:
     logo: material/atom-variant
 
   palette:
-    - scheme: default
+    - scheme: slate
       primary: black
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    - scheme: slate
+    - scheme: default
       primary: black
       toggle:
         icon: material/toggle-switch-off-outline
